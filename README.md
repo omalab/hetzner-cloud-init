@@ -24,5 +24,5 @@ NOTES:
 locale: en_US.UTF-8
 
 runcmd:
-  - "curl -s https://raw.githubusercontent.com/vitobotta/hetzner-cloud-init/master/setup.sh | bash -s -- --hcloud-token <TOKEN> --whitelisted-ips <WHITELIST> --floating-ips"
+  - "curl -s https://raw.githubusercontent.com/omalab/hetzner-cloud-init/master/setup.sh | bash -s -- --hcloud-token <TOKEN> --whitelisted-ips <WHITELIST> --floating-ips"
 ```

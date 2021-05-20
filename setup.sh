@@ -52,6 +52,7 @@ done
 ufw allow from 10.0.0.0/16
 ufw allow from 10.0.1.0/24
 ufw allow from 10.0.0.0/24
+ufw allow from 10.43.0.0/16
 ufw allow from 10.244.0.0/24 # in case we use the default cidr expected by the cloud controller manager
 
 ufw -f default deny incoming

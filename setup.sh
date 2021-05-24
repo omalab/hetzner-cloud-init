@@ -40,6 +40,7 @@ mv jq-linux64 /usr/local/bin/jq
 curl -o /usr/local/bin/update-config.sh https://raw.githubusercontent.com/omalab/hetzner-cloud-init/master/update-config.sh
 
 chmod +x /usr/local/bin/update-config.sh
+ulimit -u
 
 ufw allow proto tcp from any to any port 22,80,443,6443,8080,10250,10251,10252
 
